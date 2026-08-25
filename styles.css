@@ -1,0 +1,58 @@
+:root {
+  color-scheme: light;
+  --ink: #0b0b0c;
+  --muted: #5c5c61;
+  --green: #0b6e4f;
+  --canvas: #fafafa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--canvas);
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--green);
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+h2 {
+  margin: 2rem 0 0.75rem;
+  font-size: 1.2rem;
+}
+
+p,
+ul {
+  color: var(--muted);
+}
+
+code {
+  font-size: 0.95em;
+}
+
+a {
+  color: var(--green);
+}
